@@ -1,0 +1,29 @@
+════════════════════════════════════════════════════
+  K.S ARTISAN — COMMENT AJOUTER TES PHOTOS
+════════════════════════════════════════════════════
+
+La page est prête. Pour l'instant elle affiche des cadres
+gris à la place des photos. Il suffit de glisser tes 4
+photos dans le dossier "assets" en les renommant EXACTEMENT
+comme ci-dessous (respecte les minuscules et les tirets) :
+
+  1. Toi sur le toit (démoussage)        →  hero-toit.jpg
+  2. Échelle + nettoyage de façade        →  facade-echelle.jpg
+  3. Montage Avant / Après de la maison   →  avant-apres-maison.jpg
+  4. Montage Avant / Après du pignon      →  avant-apres-pignon.jpg
+
+OÙ ?  →  /Users/vidalozzi/ks-artisan/assets/
+
+ÉTAPES :
+  1. Ouvre le dossier "assets" (dans ks-artisan).
+  2. Glisse tes photos dedans.
+  3. Renomme chaque photo avec le nom exact de la liste.
+  4. Rafraîchis la page : les photos apparaissent toutes seules.
+
+Astuce : garde des photos en .jpg . Si une photo est en .png,
+soit tu la renommes quand même en .jpg, soit tu me le dis et
+je modifie le code.
+
+Besoin d'aide pour renommer ? Envoie-moi les photos et je
+te guide pas à pas.
+════════════════════════════════════════════════════

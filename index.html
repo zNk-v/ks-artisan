@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>K.S Artisan — Couverture, Ravalement & Démoussage de toiture en Essonne (91)</title>
+<meta name="description" content="K.S Artisan à Brétigny-sur-Orge (91) : ravalement de façade, peinture extérieure, couverture, démoussage et traitement de toiture. Devis gratuit, intervention rapide en Essonne. Note 5/5 sur Google." />
+<meta name="theme-color" content="#C0341D" />
+
+<!-- ===========================================================
+     ⚙️  INFOS À MODIFIER FACILEMENT (rien d'autre à toucher)
+     Change juste les valeurs entre guillemets ci-dessous.
+=============================================================== -->
+<script>
+  const INFO = {
+    phone:    "06 28 03 96 71",
+    phoneRaw: "+33628039671",
+    address:  "97 Chem. du Bois Badeau, 91220 Brétigny-sur-Orge",
+    zone:     "Essonne (91) et alentours",
+    googleReviewUrl: "#avis"   // ➜ colle ici le lien de ta fiche Google si tu veux
+  };
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --red:#C0341D;          /* rouge brique */
+    --red-dark:#9A2615;
+    --red-soft:#F7E7E2;
+    --char:#1C1A19;         /* charbon */
+    --char-2:#3A3633;
+    --cream:#FBF6F0;        /* fond chaud */
+    --cream-2:#F3EBE1;
+    --line:#E7DCD0;
+    --white:#FFFFFF;
+    --muted:#6B6259;
+    --gold:#E8A93B;         /* étoiles avis */
+    --shadow:0 10px 30px -12px rgba(28,26,25,.25);
+    --shadow-lg:0 24px 60px -20px rgba(28,26,25,.35);
+    --radius:18px;
+    --maxw:1180px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:'Inter',system-ui,sans-serif;
+    color:var(--char);background:var(--cream);
+    line-height:1.6;-webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  h1,h2,h3,.display{font-family:'Bricolage Grotesque',sans-serif;line-height:1.05;letter-spacing:-.02em}
+  a{color:inherit;text-decoration:none}
+  img{display:block;max-width:100%}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 22px}
+  .eyebrow{
+    display:inline-flex;align-items:center;gap:8px;
+    font-weight:700;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--red);background:var(--red-soft);
+    padding:7px 14px;border-radius:999px;
+  }
+  .btn{
+    display:inline-flex;align-items:center;justify-content:center;gap:10px;
+    font-weight:700;font-size:1rem;cursor:pointer;border:0;
+    padding:15px 26px;border-radius:12px;transition:transform .18s ease,box-shadow .18s ease,background .18s ease;
+    white-space:nowrap;
+  }
+  .btn svg{width:20px;height:20px}
+  .btn-primary{background:var(--red);color:#fff;box-shadow:0 8px 22px -8px rgba(192,52,29,.7)}
+  .btn-primary:hover{background:var(--red-dark);transform:translateY(-2px);box-shadow:0 14px 30px -10px rgba(192,52,29,.75)}
+  .btn-ghost{background:#fff;color:var(--char);border:1.5px solid var(--line)}
+  .btn-ghost:hover{border-color:var(--red);color:var(--red);transform:translateY(-2px)}
+  .btn-lg{padding:18px 32px;font-size:1.06rem}
+
+  /* ---------- HEADER ---------- */
+  header{position:sticky;top:0;z-index:50;background:rgba(251,246,240,.85);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:72px}
+  .brand{display:flex;align-items:center;gap:11px;font-family:'Bricolage Grotesque';font-weight:800;font-size:1.28rem;letter-spacing:-.02em}
+  .brand .mark{
+    width:40px;height:40px;border-radius:11px;background:var(--red);color:#fff;
+    display:grid;place-items:center;font-size:1rem;font-weight:800;box-shadow:0 6px 16px -6px rgba(192,52,29,.7);
+  }
+  .brand small{display:block;font-family:'Inter';font-weight:600;font-size:.62rem;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+  .nav-links{display:flex;align-items:center;gap:30px}
+  .nav-links a{font-weight:600;font-size:.95rem;color:var(--char-2);transition:color .15s}
+  .nav-links a:hover{color:var(--red)}
+  .nav-cta{display:flex;align-items:center;gap:14px}
+  .nav-phone{display:inline-flex;align-items:center;gap:9px;font-weight:700;color:var(--char)}
+  .nav-phone svg{width:18px;height:18px;color:var(--red)}
+  .burger{display:none;background:none;border:0;cursor:pointer;padding:8px;color:var(--char)}
+  .burger svg{width:28px;height:28px}
+
+  /* ---------- HERO ---------- */
+  .hero{position:relative;overflow:hidden}
+  .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center;padding:64px 0 72px}
+  .hero h1{font-size:clamp(2.5rem,5.3vw,4.2rem);font-weight:800;margin:18px 0 18px}
+  .hero h1 .hl{color:var(--red)}
+  .hero p.lead{font-size:1.18rem;color:var(--char-2);max-width:36ch;margin-bottom:30px}
+  .hero-cta{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:30px}
+  .trust-strip{display:flex;flex-wrap:wrap;gap:10px 22px;align-items:center}
+  .trust-item{display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:.92rem;color:var(--char-2)}
+  .trust-item svg{width:18px;height:18px;color:var(--red)}
+  .stars{display:inline-flex;gap:2px}
+  .stars svg{width:17px;height:17px;color:var(--gold)}
+
+  .hero-media{position:relative}
+  .hero-photo{position:relative;border-radius:24px;overflow:hidden;box-shadow:var(--shadow-lg);aspect-ratio:4/5;background:linear-gradient(150deg,#2b2724,#46403a)}
+  .hero-photo img{width:100%;height:100%;object-fit:cover}
+  .ph-label{position:absolute;inset:0;display:grid;place-items:center;text-align:center;color:#e9ded2;font-weight:600;padding:24px;gap:8px}
+  .ph-label svg{width:40px;height:40px;opacity:.7;margin:0 auto 8px}
+  .badge-float{
+    position:absolute;bottom:18px;left:-14px;background:#fff;border-radius:16px;
+    padding:14px 18px;box-shadow:var(--shadow-lg);display:flex;align-items:center;gap:12px;
+  }
+  .badge-float .num{font-family:'Bricolage Grotesque';font-weight:800;font-size:1.7rem;color:var(--red);line-height:1}
+  .badge-float small{font-size:.78rem;color:var(--muted);font-weight:600}
+  .badge-float2{
+    position:absolute;top:18px;right:-12px;background:var(--char);color:#fff;border-radius:14px;
+    padding:11px 16px;box-shadow:var(--shadow-lg);font-weight:700;font-size:.86rem;display:flex;align-items:center;gap:8px;
+  }
+  .badge-float2 svg{width:18px;height:18px;color:var(--gold)}
+
+  /* ---------- SECTION SHELL ---------- */
+  section{padding:78px 0}
+  .sec-head{max-width:680px;margin:0 auto 50px;text-align:center}
+  .sec-head h2{font-size:clamp(2rem,4vw,2.9rem);font-weight:800;margin:16px 0 14px}
+  .sec-head p{color:var(--char-2);font-size:1.08rem}
+
+  /* ---------- SERVICES ---------- */
+  .services{background:var(--white)}
+  .grid-services{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .scard{
+    background:var(--cream);border:1px solid var(--line);border-radius:var(--radius);padding:30px 26px;
+    transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease;
+  }
+  .scard:hover{transform:translateY(-5px);box-shadow:var(--shadow);border-color:var(--red-soft)}
+  .scard .ic{width:54px;height:54px;border-radius:14px;background:var(--red-soft);color:var(--red);display:grid;place-items:center;margin-bottom:18px}
+  .scard .ic svg{width:28px;height:28px}
+  .scard h3{font-size:1.28rem;font-weight:700;margin-bottom:10px}
+  .scard p{color:var(--char-2);font-size:.97rem}
+  .scard ul{list-style:none;margin-top:14px;display:flex;flex-direction:column;gap:7px}
+  .scard li{display:flex;gap:9px;align-items:flex-start;font-size:.92rem;color:var(--char-2)}
+  .scard li svg{width:17px;height:17px;color:var(--red);flex:none;margin-top:3px}
+
+  /* ---------- REALISATIONS ---------- */
+  .work{background:var(--cream-2)}
+  .grid-work{display:grid;grid-template-columns:repeat(12,1fr);gap:20px}
+  .wcard{position:relative;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);background:linear-gradient(150deg,#2b2724,#46403a);min-height:260px}
+  .wcard img{width:100%;height:100%;object-fit:cover;position:relative;z-index:1}
+  .wcard.tall{grid-column:span 4;aspect-ratio:3/4}
+  .wcard.wide{grid-column:span 8;aspect-ratio:16/11}
+  .wcard.half{grid-column:span 6;aspect-ratio:4/3}
+  .wcard .ribbon{
+    position:absolute;top:14px;left:14px;z-index:3;background:var(--red);color:#fff;
+    font-weight:700;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;
+    padding:7px 13px;border-radius:9px;box-shadow:0 6px 14px -6px rgba(0,0,0,.5)
+  }
+  .wcard .cap{
+    position:absolute;left:0;right:0;bottom:0;z-index:3;padding:34px 18px 16px;
+    background:linear-gradient(transparent,rgba(20,18,16,.82));color:#fff;font-weight:600;font-size:.96rem
+  }
+
+  /* ---------- BANDEAU ENGAGEMENTS ---------- */
+  .why{background:var(--char);color:#fff}
+  .why .sec-head h2{color:#fff}
+  .why .sec-head p{color:#c9bfb4}
+  .grid-why{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+  .why-item{text-align:center;padding:10px}
+  .why-item .ic{width:60px;height:60px;border-radius:16px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);display:grid;place-items:center;margin:0 auto 16px;color:var(--red)}
+  .why-item .ic svg{width:30px;height:30px;color:#ff7a5c}
+  .why-item h3{font-size:1.15rem;color:#fff;margin-bottom:8px}
+  .why-item p{color:#bdb3a8;font-size:.94rem}
+
+  /* ---------- PROCESS ---------- */
+  .grid-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;counter-reset:s}
+  .step{position:relative;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:32px 26px}
+  .step::before{counter-increment:s;content:counter(s);position:absolute;top:-18px;left:26px;width:44px;height:44px;border-radius:12px;background:var(--red);color:#fff;font-family:'Bricolage Grotesque';font-weight:800;font-size:1.3rem;display:grid;place-items:center;box-shadow:0 8px 18px -8px rgba(192,52,29,.7)}
+  .step h3{font-size:1.18rem;margin:14px 0 8px}
+  .step p{color:var(--char-2);font-size:.96rem}
+
+  /* ---------- AVIS ---------- */
+  .reviews{background:var(--white)}
+  .g-head{display:flex;align-items:center;justify-content:center;gap:14px;margin-bottom:8px}
+  .g-badge{display:inline-flex;align-items:center;gap:10px;background:var(--cream);border:1px solid var(--line);border-radius:999px;padding:10px 18px;font-weight:700}
+  .g-badge .gnum{font-family:'Bricolage Grotesque';font-size:1.2rem}
+  .grid-reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:36px}
+  .rcard{background:var(--cream);border:1px solid var(--line);border-radius:var(--radius);padding:28px 26px;display:flex;flex-direction:column;gap:14px}
+  .rcard .stars svg{width:18px;height:18px}
+  .rcard p{color:var(--char-2);font-size:.98rem;flex:1}
+  .rcard .who{display:flex;align-items:center;gap:12px}
+  .rcard .av{width:44px;height:44px;border-radius:50%;background:var(--red);color:#fff;display:grid;place-items:center;font-weight:700;font-family:'Bricolage Grotesque'}
+  .rcard .who b{font-size:.98rem}
+  .rcard .who small{color:var(--muted);font-size:.82rem;display:block}
+
+  /* ---------- CONTACT ---------- */
+  .contact{background:var(--cream-2)}
+  .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+  .info-block{display:flex;flex-direction:column;gap:18px}
+  .info-row{display:flex;gap:16px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px 20px}
+  .info-row .ic{width:46px;height:46px;border-radius:12px;background:var(--red-soft);color:var(--red);display:grid;place-items:center;flex:none}
+  .info-row .ic svg{width:23px;height:23px}
+  .info-row b{display:block;font-size:1.02rem;margin-bottom:3px}
+  .info-row span,.info-row a{color:var(--char-2);font-size:.96rem}
+  .info-row a:hover{color:var(--red)}
+  .hours{font-size:.93rem;color:var(--char-2)}
+  .hours div{display:flex;justify-content:space-between;padding:3px 0;border-bottom:1px dashed var(--line);max-width:260px}
+  .hours div:last-child{border:0}
+
+  form{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:30px;box-shadow:var(--shadow)}
+  form h3{font-size:1.5rem;margin-bottom:6px}
+  form .sub{color:var(--char-2);font-size:.95rem;margin-bottom:20px}
+  .field{margin-bottom:16px}
+  .field label{display:block;font-weight:600;font-size:.9rem;margin-bottom:7px}
+  .field input,.field select,.field textarea{
+    width:100%;padding:13px 15px;border:1.5px solid var(--line);border-radius:11px;font:inherit;font-size:1rem;background:var(--cream);color:var(--char);transition:border-color .15s,box-shadow .15s;
+  }
+  .field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--red);box-shadow:0 0 0 4px var(--red-soft);background:#fff}
+  .field textarea{resize:vertical;min-height:96px}
+  form .btn{width:100%}
+  .form-note{font-size:.82rem;color:var(--muted);text-align:center;margin-top:12px}
+
+  /* ---------- FOOTER ---------- */
+  footer{background:var(--char);color:#cabfb4;padding:54px 0 28px}
+  .foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:36px;margin-bottom:34px}
+  footer .brand{color:#fff;margin-bottom:14px}
+  footer p{font-size:.93rem;max-width:34ch}
+  footer h4{color:#fff;font-family:'Bricolage Grotesque';font-size:1.05rem;margin-bottom:14px}
+  footer ul{list-style:none;display:flex;flex-direction:column;gap:9px}
+  footer ul a,footer ul li{font-size:.93rem;color:#cabfb4}
+  footer ul a:hover{color:#fff}
+  .foot-bot{border-top:1px solid rgba(255,255,255,.1);padding-top:22px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:.82rem;color:#8a8076}
+
+  /* ---------- STICKY MOBILE CALL ---------- */
+  .mobile-call{display:none}
+
+  /* ---------- REVEAL ---------- */
+  .reveal{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s ease}
+  .reveal.in{opacity:1;transform:none}
+  @media (prefers-reduced-motion:reduce){
+    .reveal{opacity:1;transform:none;transition:none}
+    html{scroll-behavior:auto}
+    *{animation:none!important}
+  }
+
+  /* ---------- RESPONSIVE ---------- */
+  @media(max-width:980px){
+    .hero-grid{grid-template-columns:1fr;gap:36px;padding:44px 0 56px}
+    .hero-media{max-width:440px;margin:0 auto}
+    .grid-services,.grid-why{grid-template-columns:repeat(2,1fr)}
+    .grid-steps,.grid-reviews{grid-template-columns:1fr}
+    .contact-grid{grid-template-columns:1fr}
+    .foot-grid{grid-template-columns:1fr 1fr}
+    .wcard.tall,.wcard.wide,.wcard.half{grid-column:span 12;aspect-ratio:16/10}
+  }
+  @media(max-width:680px){
+    .nav-links,.nav-phone{display:none}
+    .burger{display:block}
+    .nav-links.open{display:flex;position:absolute;top:72px;left:0;right:0;flex-direction:column;background:var(--cream);padding:18px 22px;gap:16px;border-bottom:1px solid var(--line);box-shadow:var(--shadow)}
+    .grid-services,.grid-why,.foot-grid{grid-template-columns:1fr}
+    section{padding:56px 0}
+    .mobile-call{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:60;background:#fff;border-top:1px solid var(--line);padding:10px 14px env(safe-area-inset-bottom);gap:10px}
+    .mobile-call .btn{flex:1;padding:14px}
+    body{padding-bottom:72px}
+    .badge-float{left:8px}
+    .badge-float2{right:8px}
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="wrap nav">
+    <a href="#" class="brand">
+      <span class="mark">KS</span>
+      <span>K.S Artisan<small>Couverture · Façade · Toiture</small></span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#services">Prestations</a>
+      <a href="#realisations">Réalisations</a>
+      <a href="#avis">Avis</a>
+      <a href="#zone">Zone</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="nav-phone" id="navPhone" href="#"><svg fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span id="navPhoneTxt">06 28 03 96 71</span></a>
+      <a class="btn btn-primary" id="navDevis" href="#contact">Devis gratuit</a>
+      <button class="burger" id="burger" aria-label="Menu"><svg fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" viewBox="0 0 24 24"><path d="M3 12h18M3 6h18M3 18h18"/></svg></button>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy reveal">
+      <span class="eyebrow"><svg fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24" width="14" height="14"><path d="M3 11l9-8 9 8M5 10v10h14V10"/></svg> Artisan en Essonne (91)</span>
+      <h1>Votre toiture et vos façades, <span class="hl">comme neuves.</span></h1>
+      <p class="lead">Ravalement, peinture, couverture et démoussage de toiture. Un travail soigné, des produits professionnels et durables, pour les particuliers comme les professionnels.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary btn-lg" id="heroCall" href="#"><svg fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> Appeler maintenant</a>
+        <a class="btn btn-ghost btn-lg" href="#realisations">Voir nos réalisations</a>
+      </div>
+      <div class="trust-strip">
+        <span class="trust-item">
+          <span class="stars">
+            <svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3 6.9 7.5.6-5.7 4.9 1.8 7.3L12 17.8 5.4 21.7l1.8-7.3L1.5 9.5 9 8.9z"/></svg>
+            <svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3 6.9 7.5.6-5.7 4.9 1.8 7.3L12 17.8 5.4 21.7l1.8-7.3L1.5 9.5 9 8.9z"/></svg>
+            <svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3 6.9 7.5.6-5.7 4.9 1.8 7.3L12 17.8 5.4 21.7l1.8-7.3L1.5 9.5 9 8.9z"/></svg>
+            <svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3 6.9 7.5.6-5.7 4.9 1.8 7.3L12 17.8 5.4 21.7l1.8-7.3L1.5 9.5 9 8.9z"/></svg>
+            <svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3 6.9 7.5.6-5.7 4.9 1.8 7.3L12 17.8 5.4 21.7l1.8-7.3L1.5 9.5 9 8.9z"/></svg>
+          </span> 5/5 sur Google
+        </span>
+        <span class="trust-item"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg> Devis gratuit</span>
+        <span class="trust-item"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg> Intervention rapide</span>
+      </div>
+    </div>
+
+    <div class="hero-media reveal">
+      <div class="hero-photo" data-ph>
+        <div class="ph-label"><div><svg fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>Photo : démoussage de toiture<br><small style="opacity:.7">assets/hero-toit.jpg</small></div></div>
+        <img src="assets/hero-toit.jpg" alt="Artisan K.S réalisant le démoussage d'une toiture en Essonne" onerror="this.style.display='none'">
+      </div>
+      <div class="badge-float">
+        <span class="num">15+</span>
+        <small>prestations<br>extérieures</small>
+      </div>
+      <div class="badge-float2"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3 6.9 7.5.6-5.7 4.9 1.8 7.3L12 17.8 5.4 21.7l1.8-7.3L1.5 9.5 9 8.9z"/></svg> Avis 5/5</div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Nos prestations</span>
+      <h2>Un seul artisan pour tout l'extérieur</h2>
+      <p>De la toiture à la façade, K.S Artisan entretient, rénove et embellit votre habitation avec des produits professionnels, durables et respectueux de l'environnement.</p>
+    </div>
+    <div class="grid-services">
+
+      <div class="scard reveal">
+        <div class="ic"><svg fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M3 11l9-7 9 7M5 10v10h14V10"/><path d="M9 20v-6h6v6"/></svg></div>
+        <h3>Ravalement & peinture de façade</h3>
+        <p>Nettoyage, remise en état et peinture extérieure pour des murs propres et protégés durablement.</p>
+        <ul>
+          <li><svg fill="none" stroke="currentColor" stroke-width="2.4" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg> Ravalement complet</li>
+          <li><svg fill="none" stroke="currentColor" stroke-width="2.4" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg> Peinture extérieure</li>
+        </ul>
+      </div>
+
+      <div class="scard reveal">
+        <div class="ic"><svg fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M12 2s6 7 6 11a6 6 0 0 1-12 0c0-4 6-11 6-11z"/></svg></div>
+        <h3>Démoussage & traitement de toiture</h3>
+        <p>Nettoyage, démoussage et traitement anti-mousse + hydrofuge pour prolonger la vie de votre toit.</p>
+        <ul>
+          <li><svg fill="none" stroke="currentColor" stroke-width="2.4" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg> Anti-mousse</li>
+          <li><svg fill="none" stroke="currentColor" stroke-width="2.4" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg> Hydrofuge protecteur</li>
+        </ul>
+      </div>
+
+      <div class="scard reveal">
+        <div class="ic"><svg fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M3 9l9-6 9 6v11a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"/><path d="M3 9h18"/></svg></div>
+        <h3>Travaux de couverture</h3>
+        <p>Réparation, rénovation, pose de couverture et recherche de fuite par un artisan couvreur.</p>
+        <ul>
+          <li><svg fill="none" stroke="currentColor" stroke-width="2.4" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg> Réparation & rénovation</li>
+          <li><svg fill="none" stroke="currentColor" stroke-width="2.4" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg> Recherche de fuite</li>
+        </ul>
+      </div>
+
+      <div class="scard reveal">
+        <div class="ic"><svg fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M3 21h18M5 21V8l4-3 4 3v13M13 21V11h6v10"/></svg></div>
+        <h3>Maçonnerie extérieure</h3>
+        <p>Petits travaux de maçonnerie pour réparer, consolider et finir proprement vos extérieurs.</p>
+        <ul>
+          <li><svg fill="none" stroke="currentColor" stroke-width="2.4" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg> Réparations & finitions</li>
+        </ul>
+      </div>
+
+      <div class="scard reveal">
+        <div class="ic"><svg fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1"/><path d="M12 3v18M3 12h18"/></svg></div>
+        <h3>Menuiserie PVC</h3>
+        <p>Pose et remplacement de menuiseries PVC pour gagner en confort et en isolation.</p>
+        <ul>
+          <li><svg fill="none" stroke="currentColor" stroke-width="2.4" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg> Fenêtres & ouvertures PVC</li>
+        </ul>
+      </div>
+
+      <div class="scard reveal" style="background:var(--red);border-color:var(--red);color:#fff;display:flex;flex-direction:column;justify-content:center">
+        <h3 style="color:#fff">Un projet en tête&nbsp;?</h3>
+        <p style="color:#ffe2d9">Décrivez vos travaux, on vous rappelle avec un devis gratuit et sans engagement.</p>
+        <a class="btn" style="background:#fff;color:var(--red);margin-top:16px" href="#contact">Demander un devis</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- REALISATIONS -->
+<section class="work" id="realisations">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Avant / Après</span>
+      <h2>Le résultat parle de lui-même</h2>
+      <p>Quelques chantiers réalisés par K.S Artisan : façades nettoyées, toitures traitées, extérieurs remis à neuf.</p>
+    </div>
+    <div class="grid-work">
+
+      <div class="wcard wide reveal" data-ph>
+        <span class="ribbon">Avant / Après</span>
+        <div class="ph-label"><div><svg fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>assets/avant-apres-maison.jpg</div></div>
+        <img src="assets/avant-apres-maison.jpg" alt="Façade de maison avant et après ravalement par K.S Artisan" onerror="this.style.display='none'">
+        <div class="cap">Ravalement de façade — maison individuelle</div>
+      </div>
+
+      <div class="wcard tall reveal" data-ph>
+        <span class="ribbon">Façade</span>
+        <div class="ph-label"><div><svg fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>assets/facade-echelle.jpg</div></div>
+        <img src="assets/facade-echelle.jpg" alt="Nettoyage de façade au pulvérisateur par l'artisan" onerror="this.style.display='none'">
+        <div class="cap">Nettoyage & traitement de façade</div>
+      </div>
+
+      <div class="wcard half reveal" data-ph>
+        <span class="ribbon">Avant / Après</span>
+        <div class="ph-label"><div><svg fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>assets/avant-apres-pignon.jpg</div></div>
+        <img src="assets/avant-apres-pignon.jpg" alt="Pignon de maison nettoyé, avant et après par K.S Artisan" onerror="this.style.display='none'">
+        <div class="cap">Démoussage & nettoyage de pignon</div>
+      </div>
+
+      <div class="wcard half reveal" data-ph>
+        <span class="ribbon">Toiture</span>
+        <div class="ph-label"><div><svg fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>assets/hero-toit.jpg</div></div>
+        <img src="assets/hero-toit.jpg" alt="Démoussage de toiture en tuiles" onerror="this.style.display='none'">
+        <div class="cap">Démoussage de toiture en tuiles</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ENGAGEMENTS -->
+<section class="why">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Pourquoi nous</span>
+      <h2>Le sérieux d'un artisan de proximité</h2>
+      <p>Basés à Brétigny-sur-Orge, à l'écoute et réactifs pour tous vos travaux d'entretien, de rénovation ou d'embellissement.</p>
+    </div>
+    <div class="grid-why">
+      <div class="why-item reveal">
+        <div class="ic"><svg fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></div>
+        <h3>Travail soigné</h3>
+        <p>Des finitions propres et un chantier mené avec rigueur, dans les délais annoncés.</p>
+      </div>
+      <div class="why-item reveal">
+        <div class="ic"><svg fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M12 2L3 7v6c0 5 4 8 9 9 5-1 9-4 9-9V7z"/></svg></div>
+        <h3>Produits durables</h3>
+        <p>Des produits professionnels, durables et respectueux de l'environnement.</p>
+      </div>
+      <div class="why-item reveal">
+        <div class="ic"><svg fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M13 2L3 14h7l-1 8 11-14h-7z"/></svg></div>
+        <h3>Intervention rapide</h3>
+        <p>Une réponse réactive et une intervention rapide partout en Essonne.</p>
+      </div>
+      <div class="why-item reveal">
+        <div class="ic"><svg fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/></svg></div>
+        <h3>Particuliers & pros</h3>
+        <p>Un savoir-faire au service des particuliers comme des professionnels.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section>
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Comment ça se passe</span>
+      <h2>Simple, du premier appel au chantier fini</h2>
+    </div>
+    <div class="grid-steps">
+      <div class="step reveal">
+        <h3>Vous nous contactez</h3>
+        <p>Un appel ou un message, vous décrivez vos travaux et votre habitation.</p>
+      </div>
+      <div class="step reveal">
+        <h3>Devis gratuit</h3>
+        <p>On évalue le chantier et on vous remet un devis clair, gratuit et sans engagement.</p>
+      </div>
+      <div class="step reveal">
+        <h3>Intervention</h3>
+        <p>On réalise les travaux avec soin, dans les délais, et on vous laisse un extérieur comme neuf.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AVIS -->
+<section class="reviews" id="avis">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Ils nous ont fait confiance</span>
+      <div class="g-head">
+        <span class="g-badge">
+          <svg width="20" height="20" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.5 12.2c0-.7-.1-1.4-.2-2H12v3.8h5.9a5 5 0 0 1-2.2 3.3v2.7h3.6c2.1-1.9 3.2-4.8 3.2-7.8z"/><path fill="#34A853" d="M12 23c2.9 0 5.4-1 7.2-2.6l-3.6-2.7c-1 .7-2.3 1.1-3.6 1.1-2.8 0-5.1-1.9-6-4.4H2.3v2.8A11 11 0 0 0 12 23z"/><path fill="#FBBC05" d="M6 14.4a6.6 6.6 0 0 1 0-4.2V7.4H2.3a11 11 0 0 0 0 9.8z"/><path fill="#EA4335" d="M12 5.5c1.6 0 3 .5 4.1 1.6l3.1-3.1A11 11 0 0 0 2.3 7.4L6 10.2c.9-2.6 3.2-4.7 6-4.7z"/></svg>
+          <span class="gnum">5,0</span>
+          <span class="stars">
+            <svg fill="currentColor" viewBox="0 0 24 24" width="17" height="17"><path d="M12 2l3 6.9 7.5.6-5.7 4.9 1.8 7.3L12 17.8 5.4 21.7l1.8-7.3L1.5 9.5 9 8.9z"/></svg>
+            <svg fill="currentColor" viewBox="0 0 24 24" width="17" height="17"><path d="M12 2l3 6.9 7.5.6-5.7 4.9 1.8 7.3L12 17.8 5.4 21.7l1.8-7.3L1.5 9.5 9 8.9z"/></svg>
+            <svg fill="currentColor" viewBox="0 0 24 24" width="17" height="17"><path d="M12 2l3 6.9 7.5.6-5.7 4.9 1.8 7.3L12 17.8 5.4 21.7l1.8-7.3L1.5 9.5 9 8.9z"/></svg>
+            <svg fill="currentColor" viewBox="0 0 24 24" width="17" height="17"><path d="M12 2l3 6.9 7.5.6-5.7 4.9 1.8 7.3L12 17.8 5.4 21.7l1.8-7.3L1.5 9.5 9 8.9z"/></svg>
+            <svg fill="currentColor" viewBox="0 0 24 24" width="17" height="17"><path d="M12 2l3 6.9 7.5.6-5.7 4.9 1.8 7.3L12 17.8 5.4 21.7l1.8-7.3L1.5 9.5 9 8.9z"/></svg>
+          </span>
+        </span>
+      </div>
+      <p>3 avis Google, une note parfaite de 5 sur 5.</p>
+    </div>
+    <div class="grid-reviews">
+
+      <div class="rcard reveal">
+        <span class="stars"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3 6.9 7.5.6-5.7 4.9 1.8 7.3L12 17.8 5.4 21.7l1.8-7.3L1.5 9.5 9 8.9z"/></svg><svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3 6.9 7.5.6-5.7 4.9 1.8 7.3L12 17.8 5.4 21.7l1.8-7.3L1.5 9.5 9 8.9z"/></svg><svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3 6.9 7.5.6-5.7 4.9 1.8 7.3L12 17.8 5.4 21.7l1.8-7.3L1.5 9.5 9 8.9z"/></svg><svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3 6.9 7.5.6-5.7 4.9 1.8 7.3L12 17.8 5.4 21.7l1.8-7.3L1.5 9.5 9 8.9z"/></svg><svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3 6.9 7.5.6-5.7 4.9 1.8 7.3L12 17.8 5.4 21.7l1.8-7.3L1.5 9.5 9 8.9z"/></svg></span>
+        <p>« Façade comme neuve ! J'ai fait travailler K.S Artisan pour le nettoyage des façades de ma maison, et le résultat est impeccable. »</p>
+        <div class="who"><span class="av">L</span><div><b>Leydie Blondel</b><small>Avis Google · Mai 2025</small></div></div>
+      </div>
+
+      <div class="rcard reveal">
+        <span class="stars"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3 6.9 7.5.6-5.7 4.9 1.8 7.3L12 17.8 5.4 21.7l1.8-7.3L1.5 9.5 9 8.9z"/></svg><svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3 6.9 7.5.6-5.7 4.9 1.8 7.3L12 17.8 5.4 21.7l1.8-7.3L1.5 9.5 9 8.9z"/></svg><svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3 6.9 7.5.6-5.7 4.9 1.8 7.3L12 17.8 5.4 21.7l1.8-7.3L1.5 9.5 9 8.9z"/></svg><svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3 6.9 7.5.6-5.7 4.9 1.8 7.3L12 17.8 5.4 21.7l1.8-7.3L1.5 9.5 9 8.9z"/></svg><svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3 6.9 7.5.6-5.7 4.9 1.8 7.3L12 17.8 5.4 21.7l1.8-7.3L1.5 9.5 9 8.9z"/></svg></span>
+        <p>« Excellent travail pour le ravalement de façade de notre maison. Le chantier a été mené avec sérieux, dans les délais, et le résultat est superbe. »</p>
+        <div class="who"><span class="av">C</span><div><b>Celena Tezza</b><small>Avis Google · Mars 2025</small></div></div>
+      </div>
+
+      <div class="rcard reveal">
+        <span class="stars"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3 6.9 7.5.6-5.7 4.9 1.8 7.3L12 17.8 5.4 21.7l1.8-7.3L1.5 9.5 9 8.9z"/></svg><svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3 6.9 7.5.6-5.7 4.9 1.8 7.3L12 17.8 5.4 21.7l1.8-7.3L1.5 9.5 9 8.9z"/></svg><svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3 6.9 7.5.6-5.7 4.9 1.8 7.3L12 17.8 5.4 21.7l1.8-7.3L1.5 9.5 9 8.9z"/></svg><svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3 6.9 7.5.6-5.7 4.9 1.8 7.3L12 17.8 5.4 21.7l1.8-7.3L1.5 9.5 9 8.9z"/></svg><svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3 6.9 7.5.6-5.7 4.9 1.8 7.3L12 17.8 5.4 21.7l1.8-7.3L1.5 9.5 9 8.9z"/></svg></span>
+        <p>« Un professionnel qui, outre sa gentillesse et son écoute, a toujours été réactif, courtois, rigoureux, impliqué, honnête et d'une efficacité à toute épreuve. »</p>
+        <div class="who"><span class="av">D</span><div><b>Dominique Buais</b><small>Avis Google · Janvier 2024</small></div></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="sec-head reveal" style="text-align:left;margin-bottom:40px;max-width:none">
+      <span class="eyebrow" id="zone">Devis gratuit</span>
+      <h2>Parlons de votre projet</h2>
+      <p>Appelez-nous ou laissez vos coordonnées : on vous rappelle rapidement avec un devis gratuit et sans engagement.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="info-block reveal">
+        <div class="info-row">
+          <div class="ic"><svg fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+          <div><b>Téléphone</b><a id="ctaPhone" href="#">06 28 03 96 71</a></div>
+        </div>
+        <div class="info-row">
+          <div class="ic"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <div><b>Adresse</b><span id="ctaAddr">97 Chem. du Bois Badeau, 91220 Brétigny-sur-Orge</span></div>
+        </div>
+        <div class="info-row">
+          <div class="ic"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20z"/><path d="M12 6v6l4 2"/></svg></div>
+          <div style="flex:1">
+            <b>Horaires</b>
+            <div class="hours">
+              <div><span>Lundi – Samedi</span><span>07:00 – 21:00</span></div>
+              <div><span>Dimanche</span><span>07:00 – 18:00</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="info-row">
+          <div class="ic"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20z"/></svg></div>
+          <div><b>Zone d'intervention</b><span>Essonne (91) et alentours</span></div>
+        </div>
+      </div>
+
+      <form id="quoteForm" class="reveal">
+        <h3>Demander un devis</h3>
+        <p class="sub">Réponse rapide — gratuit et sans engagement.</p>
+        <div class="field">
+          <label for="f-name">Votre nom</label>
+          <input id="f-name" name="name" type="text" autocomplete="name" placeholder="Nom et prénom" required>
+        </div>
+        <div class="field">
+          <label for="f-phone">Votre téléphone</label>
+          <input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="06 ..." required>
+        </div>
+        <div class="field">
+          <label for="f-service">Type de travaux</label>
+          <select id="f-service" name="service">
+            <option>Ravalement / peinture de façade</option>
+            <option>Démoussage / traitement de toiture</option>
+            <option>Couverture (réparation, fuite…)</option>
+            <option>Maçonnerie extérieure</option>
+            <option>Menuiserie PVC</option>
+            <option>Autre / je ne sais pas encore</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="f-msg">Détails (facultatif)</label>
+          <textarea id="f-msg" name="message" placeholder="Décrivez votre projet, votre ville, la surface…"></textarea>
+        </div>
+        <button class="btn btn-primary btn-lg" type="submit">
+          <svg fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4z"/></svg>
+          Envoyer ma demande
+        </button>
+        <p class="form-note">En cliquant, votre messagerie s'ouvre avec un SMS prérempli pour K.S Artisan.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a href="#" class="brand"><span class="mark">KS</span><span style="color:#fff">K.S Artisan</span></a>
+        <p>Ravalement, peinture, couverture et démoussage de toiture. Au service des particuliers et des professionnels en Essonne.</p>
+      </div>
+      <div>
+        <h4>Prestations</h4>
+        <ul>
+          <li><a href="#services">Ravalement & peinture</a></li>
+          <li><a href="#services">Démoussage de toiture</a></li>
+          <li><a href="#services">Couverture</a></li>
+          <li><a href="#services">Maçonnerie & menuiserie PVC</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a id="footPhone" href="#">06 28 03 96 71</a></li>
+          <li>97 Chem. du Bois Badeau<br>91220 Brétigny-sur-Orge</li>
+          <li>Lun–Sam 7h–21h · Dim 7h–18h</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bot">
+      <span>© <span id="year">2026</span> K.S Artisan — Tous droits réservés.</span>
+      <span>Essonne (91) · Devis gratuit</span>
+    </div>
+  </div>
+</footer>
+
+<!-- STICKY MOBILE CALL BAR -->
+<div class="mobile-call">
+  <a class="btn btn-ghost" id="mCall" href="#"><svg fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" width="20" height="20"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> Appeler</a>
+  <a class="btn btn-primary" href="#contact">Devis gratuit</a>
+</div>
+
+<script>
+  // --- Injecte les infos depuis INFO ---
+  const telHref = "tel:" + INFO.phoneRaw;
+  document.querySelectorAll('#navPhone,#heroCall,#ctaPhone,#mCall,#footPhone').forEach(a=>a.setAttribute('href',telHref));
+  document.getElementById('navPhoneTxt').textContent = INFO.phone;
+  document.getElementById('ctaPhone').textContent = INFO.phone;
+  document.getElementById('footPhone').textContent = INFO.phone;
+  document.getElementById('ctaAddr').textContent = INFO.address;
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // --- Menu mobile ---
+  const burger = document.getElementById('burger');
+  const links = document.getElementById('navLinks');
+  burger.addEventListener('click', ()=> links.classList.toggle('open'));
+  links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>links.classList.remove('open')));
+
+  // --- Formulaire -> SMS prérempli ---
+  document.getElementById('quoteForm').addEventListener('submit', function(e){
+    e.preventDefault();
+    const n = document.getElementById('f-name').value;
+    const p = document.getElementById('f-phone').value;
+    const s = document.getElementById('f-service').value;
+    const m = document.getElementById('f-msg').value;
+    const body = `Bonjour K.S Artisan, je souhaite un devis.\nNom: ${n}\nTel: ${p}\nTravaux: ${s}\n${m}`;
+    window.location.href = `sms:${INFO.phoneRaw}?&body=` + encodeURIComponent(body);
+  });
+
+  // --- Reveal au scroll ---
+  const io = new IntersectionObserver((entries)=>{
+    entries.forEach(en=>{ if(en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target);} });
+  },{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
