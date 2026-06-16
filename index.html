@@ -107,7 +107,7 @@
 
   .hero-media{position:relative}
   .hero-photo{position:relative;border-radius:24px;overflow:hidden;box-shadow:var(--shadow-lg);aspect-ratio:4/5;background:linear-gradient(150deg,#2b2724,#46403a)}
-  .hero-photo img{width:100%;height:100%;object-fit:cover}
+  .hero-photo img{width:100%;height:100%;object-fit:cover;position:relative;z-index:1}
   .ph-label{position:absolute;inset:0;display:grid;place-items:center;text-align:center;color:#e9ded2;font-weight:600;padding:24px;gap:8px}
   .ph-label svg{width:40px;height:40px;opacity:.7;margin:0 auto 8px}
   .badge-float{
@@ -320,8 +320,8 @@
 
     <div class="hero-media reveal">
       <div class="hero-photo" data-ph>
-        <div class="ph-label"><div><svg fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>Photo : démoussage de toiture<br><small style="opacity:.7">assets/hero-toit.jpg</small></div></div>
-        <img src="assets/hero-toit.jpg" alt="Artisan K.S réalisant le démoussage d'une toiture en Essonne" onerror="this.style.display='none'">
+        <div class="ph-label"><div><svg fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>assets/toiture.webp</div></div>
+        <img src="assets/toiture.webp" alt="Artisan K.S réalisant le démoussage d'une toiture en Essonne" onerror="this.style.display='none'">
       </div>
       <div class="badge-float">
         <span class="num">15+</span>
@@ -404,37 +404,30 @@
 <section class="work" id="realisations">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="eyebrow">Avant / Après</span>
-      <h2>Le résultat parle de lui-même</h2>
-      <p>Quelques chantiers réalisés par K.S Artisan : façades nettoyées, toitures traitées, extérieurs remis à neuf.</p>
+      <span class="eyebrow">En images</span>
+      <h2>Nos chantiers, sur le terrain</h2>
+      <p>Quelques interventions réalisées par K.S Artisan : toitures démoussées, façades nettoyées, extérieurs remis à neuf.</p>
     </div>
     <div class="grid-work">
 
       <div class="wcard wide reveal" data-ph>
-        <span class="ribbon">Avant / Après</span>
-        <div class="ph-label"><div><svg fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>assets/avant-apres-maison.jpg</div></div>
-        <img src="assets/avant-apres-maison.jpg" alt="Façade de maison avant et après ravalement par K.S Artisan" onerror="this.style.display='none'">
-        <div class="cap">Ravalement de façade — maison individuelle</div>
+        <span class="ribbon">Toiture &amp; façade</span>
+        <div class="ph-label"><div><svg fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>assets/chantier.webp</div></div>
+        <img src="assets/chantier.webp" alt="Chantier de rénovation toiture et façade par K.S Artisan en Essonne" loading="lazy" onerror="this.style.display='none'">
+        <div class="cap">Rénovation extérieure — toiture &amp; façade</div>
       </div>
 
       <div class="wcard tall reveal" data-ph>
         <span class="ribbon">Façade</span>
-        <div class="ph-label"><div><svg fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>assets/facade-echelle.jpg</div></div>
-        <img src="assets/facade-echelle.jpg" alt="Nettoyage de façade au pulvérisateur par l'artisan" onerror="this.style.display='none'">
-        <div class="cap">Nettoyage & traitement de façade</div>
+        <div class="ph-label"><div><svg fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>assets/facade.webp</div></div>
+        <img src="assets/facade.webp" alt="Nettoyage et traitement de façade au pulvérisateur par l'artisan" loading="lazy" onerror="this.style.display='none'">
+        <div class="cap">Nettoyage &amp; traitement de façade</div>
       </div>
 
-      <div class="wcard half reveal" data-ph>
-        <span class="ribbon">Avant / Après</span>
-        <div class="ph-label"><div><svg fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>assets/avant-apres-pignon.jpg</div></div>
-        <img src="assets/avant-apres-pignon.jpg" alt="Pignon de maison nettoyé, avant et après par K.S Artisan" onerror="this.style.display='none'">
-        <div class="cap">Démoussage & nettoyage de pignon</div>
-      </div>
-
-      <div class="wcard half reveal" data-ph>
+      <div class="wcard reveal" data-ph style="grid-column:span 12;aspect-ratio:16/7">
         <span class="ribbon">Toiture</span>
-        <div class="ph-label"><div><svg fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>assets/hero-toit.jpg</div></div>
-        <img src="assets/hero-toit.jpg" alt="Démoussage de toiture en tuiles" onerror="this.style.display='none'">
+        <div class="ph-label"><div><svg fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>assets/toiture.webp</div></div>
+        <img src="assets/toiture.webp" alt="Démoussage de toiture en tuiles par K.S Artisan" loading="lazy" onerror="this.style.display='none'">
         <div class="cap">Démoussage de toiture en tuiles</div>
       </div>
 
